@@ -1,29 +1,5 @@
-.header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(195, 255, 195);
-    padding: 25px;
-    box-shadow: 0 1px;
-}
-
-a:link, a:visited, a:active {
-    text-decoration:none;
-}
-
-.section01{
-    background-color: antiquewhite;
-    width: 100%;
-    top: 0;
-    
-    display: flex;
-    padding: 300px;
-    
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "VT323", serif;
 }
