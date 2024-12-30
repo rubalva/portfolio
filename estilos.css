@@ -104,7 +104,7 @@ header nav a:hover {
 /* Conocimientos.... */
 
 .conocimiento {
-    height: 1000px;
+    height: 800px;
     border-bottom: 3px solid #fff;
     margin: 20px auto 60px auto;
     display: flex;
@@ -122,8 +122,8 @@ header nav a:hover {
 }
 
 .tech-list img {
-    width: 100px; 
-    height: 100px; 
+    width: 110px; 
+    height: 110px; 
     object-fit: contain; 
     border: 1px solid #ccc; 
     border-radius: 5px; 
@@ -139,3 +139,53 @@ header nav a:hover {
     font-size: 20px; 
     color: #7df85f;
 }
+.conocimiento h2{
+    font-size: 30px;
+}
+
+/* ---Proyectos--- */
+.proyectos {
+    height: 800px;
+    border-bottom: 3px solid #fff;
+    margin: 20px auto 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.proyectos h2{
+    font-size: 30px;
+}
+
+.contenedor-trabajos{
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    margin-bottom: 20px; 
+}
+
+.trabajo-card img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #fff;
+    
+}
+
+.trabajo-card a{
+    text-decoration: none; 
+    color: #fff; 
+    font-size: 18px; 
+    
+}
+
+.trabajo-card a:hover {
+    text-decoration: underline; 
+    color: #33FF00; 
+    
+}
+
+
