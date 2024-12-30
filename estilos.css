@@ -103,8 +103,23 @@ header nav a:hover {
 
 /* Conocimientos.... */
 
-.tech-list{
+.main .conocimiento {
+    height: 1000px;
+    border-bottom: 3px solid #fff;
+    margin: 20px auto 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main .conocimiento .tech-list{
     display: flex;
     justify-content: space-between;
+    width: 50%;
+    height: auto; /* Mantiene la proporción original */
     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
