@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="img/favicon-16x16.png">
-    <title>Porfolio👌</title>
+    <title>Porfolio Ruben👌</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/fontawesome.min.css">
     <link rel="stylesheet" href="estilos.css">
 
 </head>
@@ -24,14 +25,119 @@
     </header>
 
     <section class="main">
-        <section class="sobre-mi">Sobre mi</section>
-        <section class="conociemiento">Conocimientos</section>
-        <section class="proyectos">Proyectos</section>
-        <section class="contactos">Contactos</section>
+        
+        <section class="inicio">
+            <div class="contenedor">
+
+                <div class="foto-personal">
+                    <img src="img/foto linkedin.jpg" width="115" height="115" ="Ruben Alvarado">
+                </div>
+                <div class="caja-presentacion">
+                    <div>
+                        <h1>¡Hola! 🖖</h1>
+                        <p class="presentacion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in est sed eros 
+                            porttitor interdum vel vel justo. Sed posuere turpis turpis, semper pretium turpis imperdiet eu. 
+                            Curabitur augue nisi, tempus at est ut, rhoncus posuere augue. Pellentesque hendrerit viverra viverra. 
+                            Aliquam vitae lobortis dolor. Etiam rutrum tempor vulputate. Suspendisse eget nunc a mauris tempus tristique.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre-mi">
+            <div class="contenedor">
+
+                <h2>Sobre Mi...</h2>
+                <p>Phasellus scelerisque pharetra neque in fermentum. Vivamus a erat dictum magna faucibus auctor. Donec semper, 
+                    libero sit amet pellentesque tincidunt, metus nibh cursus ipsum, non mollis erat mauris ut nibh. In hendrerit 
+                    tellus nec nulla accumsan, sollicitudin suscipit libero tincidunt.
+                </p>
+            </div>        
+        </section>
+
+        <section class="conociemiento">
+            <div class="contenedor">
+                <h2>Conocimientos...</h2>
+                <div>
+                    <img src="img/csharp-logo.png" alt="csharp-logo">
+                    <img src="img/css-logo.png" alt="css-logo">
+                    <img src="img/html5-logo.png" alt="html5-logo">
+                    <img src="img/sqlserver-logo.png" alt="sqlserver-logo">
+                    <img src="img/net-logo.png" alt="net-logo">
+                </div>
+                <div>
+                    <img src="img/wordpress-logo.png" alt="wordpress-logo">
+                    <img src="img/divi-logo.png" alt="divi-logo">
+                    <img src="img/python-logo.png" alt="python-logo">
+                    <img src="img/kotlin-logo.png" alt="kotlin-logo">
+                    <img src="img/powerbi-logo.png" alt="powerbi-logo">
+
+                </div>
+
+                <h3>Cursos Realizados...</h3>
+                <div>
+                    <ul>
+                        <li>Curso de....</li>
+                        <li>Curso de....</li>
+                        <li>Curso de....</li>
+                        <li>Curso de....</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="proyectos">
+            <div class="contenedor">
+                <h2>Mis proyectos...</h2>
+                <div class="contenedor-trabajos">
+                    <div class="trabajo-card">
+                        <img src="img/tp-winform.jpg" alt="tp-winform">
+                        <p>Trabajo realizado en c# para el curso Experiencia Universidad de maxiprograma.com</p>
+                        <a href="https://github.com/rubalva/tp-winform-equipo-J">Ver</a>
+                    </div>
+                    <div class="trabajo-card">
+                        <img src="img/epibot-dialogflow.jpg" alt="epibot-dialogflow">
+                        <p>Bot con respuesetas no estructuradas realizado con dialogflow para la empresa energyplusintl</p>
+                        <a href="https://t.me/EPIntl_bot">Ver</a>
+                    </div>
+                    <div class="trabajo-card">
+                        <img src="img/ultragreen-webpage.jpg" alt="ultragreen-webpage">
+                        <p>Webpage rediseñada totalmente con divi, worpress, woocommerce, traductor, ssl</p>
+                        <a href="https://ultragreenpackaging.com/">Ver</a>
+                    </div>
+                    <div class="trabajo-card">
+                        <img src="img/energyplusintl-webpage.jpg" alt="energyplusintl-webpage">
+                        <p>Webpage rediseñada en su totalidad con wordpress, plantillas y diferentes pluguins</p>
+                        <a href="https://www.energyplusintl.com/">Ver</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        
     </section>
 
     <footer>
-        
+        <section class="contacto">
+            <div class="contenedor">
+                <h2>Contactame...</h2>
+                <form  class="formulario" action=""></form>
+                <input type="text" placeholder="Nombre" name="nombre" required>
+                <input type="email" placeholder="Correo" name="correo" required>
+                <textarea name="mensaje" placeholder="Mensaje:"></textarea>
+                <input class="boton" type="submit" value="Enviar">
+            </div>
+        </section>
+        <section class="redes-sociales">
+            <div class="contenedor">
+                <a href="https://www.linkedin.com/in/ruben-alfredo-alvarado-b13ba113a/" class="linkedin"><img src="img/linkedin-logo.png" alt="linkedin"></a>
+                <a href="https://github.com/rubalva" class="github"><img src="img/github-logo.png" alt="github"></a>
+            </div>
+        </section>
+
     </footer>
 
 
