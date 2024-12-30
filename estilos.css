@@ -28,9 +28,11 @@ body{
 }
 
 .header .nombre {
-    font-size: 25px;
+    font-size: 20px;
     margin: 0;
-
+    text-decoration: none;
+    color: #33FF00; 
+    
 }
 
 header nav a {
