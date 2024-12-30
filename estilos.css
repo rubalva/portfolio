@@ -147,7 +147,7 @@ header nav a:hover {
 .proyectos {
     height: 800px;
     border-bottom: 3px solid #fff;
-    margin: 20px auto 60px auto;
+    /* margin: 20px auto 60px auto; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,5 +187,109 @@ header nav a:hover {
     color: #33FF00; 
     
 }
+
+/* ---------footer-------- */
+
+.contacto{
+    height: 500px;
+    border-bottom: 3px solid #fff;
+    margin: 0;
+    padding: 40px 0;
+    background-color: #000;    
+    
+}
+
+.contacto h2{
+    color: #33FF00;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contacto .formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea{
+    border: 2px solid #33FF00;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #33FF00;
+    background-color: #000;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"]{
+    width: 43%;
+    margin-bottom: 15px;
+}
+
+.formulario textarea{
+    width: 93%;
+    height: 100px;
+    min-width: 93%;
+    max-width: 93%;
+    min-height: 100px;
+    max-height: 200px;
+    margin-bottom: 15px;
+}
+
+.formulario .boton{
+    margin: auto;
+    background-color: #000;
+    color: #33FF00;
+    border: 2px solid #33FF00;
+    border-radius: 3px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.formulario .boton:hover{
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.redes-sociales{
+    background-color: #3d3d3d;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 0;
+    display: flex; /* Flexbox para alinear los íconos */
+    justify-content: center; /* Centrar horizontalmente */
+    
+}
+
+.redes-sociales a{
+    display: inline-block; /* Bloques en línea */
+    width: 50px; /* Tamaño del ícono */
+    height: 50px;
+}
+
+.redes-sociales a img {
+    width: 100%; /* Ajustar al contenedor */
+    height: 100%; /* Ajustar al contenedor */
+    object-fit: contain; /* Ajuste de imagen */
+    border-radius: 50%;
+    border: 2px solid #3d3d3d;
+}
+.redes-sociales a:hover {
+    transform: scale(1.1);
+      
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
 
 
